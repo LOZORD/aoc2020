@@ -30,7 +30,7 @@ fn part1() {
 
         if nums.iter().count() < BUFF_SIZE {
             nums.push_back(n);
-             // We still need to digest the complete preamble.
+            // We still need to digest the complete preamble.
             continue;
         }
 
